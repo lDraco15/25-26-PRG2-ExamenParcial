@@ -1,6 +1,6 @@
-# Repo plantilla para exámenes [PRG*x*|EDA*x*|IDSW*x*]@gII.uneatlantico
+# Examen parcial - PRG2@gII.uneatlantico
 
-*Este documento es una guía para la realización y entrega de las evaluaciones en las asignaturas PRGx, EDAx e IDSWx del Grado en Ingeniería Informática. Detalla la estructura del repositorio de entrega, los artefactos requeridos y los criterios de evaluación.*
+*Este documento es una guía para la realización y entrega de las evaluaciones en las asignaturas PRG2 del Grado en Ingeniería Informática. Detalla la estructura del repositorio de entrega, los artefactos requeridos y los criterios de evaluación.*
 
 ## Enunciado del examen
 
@@ -12,7 +12,7 @@ Indicados dentro del enunciado del examen.
 
 ## Entrega del examen
 
-En el repositorio destinado para tal fin en el examen.
+En su carpeta persona, dentro de la carpeta de entregas de este repositorio.
 
 ### Artefactos
 
@@ -20,13 +20,13 @@ A continuación una lista de artefactos que habitualmente constituyen la entrega
 
 ||||
 |-|-|-|
-|1|Archivo **README.md**|**Este archivo**, sobreescrito con su presentación de la propuesta de solución al examen.|
-|2|Código fuente|Proyecto ordenado dentro de la carpeta `/src`.|
-|3|Diagramas UML|Archivos fuente en la carpeta `/modelosUML`.|
-| ||Diagramas exportados en formato .svg en la carpeta `/images`. |
-|4|Imágenes|Si considera necesario incluir imágenes además de los diagramas, deben alojarse en la carpeta `/images` y estar referenciadas en el documento de entrega.|
+|1|Archivo **README.md**|En la raiz de su carpeta entregas, con su presentación de la propuesta de solución al examen.|
+|2|Código fuente|Proyecto ordenado dentro de la carpeta `entregas/carpetaPersonal/src`.|
+|3|Diagramas UML|Archivos fuente en la carpeta `entregas/carpetaPersonal/modelosUML`.|
+| ||Diagramas exportados en formato .svg en la carpeta `entregas/carpetaPersonal/images`. |
+|4|Imágenes|Si considera necesario incluir imágenes además de los diagramas, deben alojarse en la carpeta `entregas/carpetaPersonal/images` y estar referenciadas en el documento de entrega.|
 | ||Para diagramas use el formato .svg y para imágenes comunes, el formato .png.|
-|5|Documentación adicional|En la carpeta `/documents`.|
+|5|Documentación adicional|En la carpeta `entregas/carpetaPersonal/documents`.|
 
 ### Qué se debe entregar
 
@@ -47,6 +47,6 @@ A continuación una lista de artefactos que habitualmente constituyen la entrega
 
 |||
 |-|-|
-|Planificación| Planifique su enfoque utilizando diagramas, esquemas, estados y/o pseudocódigo. Lo puede aportar en su repo, como diagrama o como imagen (foto), en la carpeta adecuada y enlazado desde el README.md|
+|Planificación| Planifique su enfoque utilizando diagramas, esquemas, estados y/o pseudocódigo. Lo puede aportar en su entrega, como diagrama o como imagen (foto), en la carpeta adecuada y enlazado desde el README.md|
 |Documentación|En dicho README.md puede explicar cómo cada parte contribuye a la solución general. Y como hemos debatido ampliamente, evite los comentarios a su código: ¡que el código se autoexplique y que los commits exquipen el proceso de creación!|
 |Delegación de responsabilidades|Dedíquele un momento a reflexionar sobre cómo reparte las responsabilidades entre los diferentes artefactos y cómo esto afecta la claridad y eficiencia de su solución.|
