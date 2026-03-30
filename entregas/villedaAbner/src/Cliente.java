@@ -22,8 +22,17 @@
         Fecha fechaPrestamoAna = new Fecha(1, 3, 2025);
         Fecha fechaDevolucionAna = new Fecha(15, 3, 2025);
         Fecha fechaPrestamoJuan = new Fecha(10, 3, 2025);
-        
+
         Prestamo prestamoAna = new Prestamo(quijote, ana, fechaPrestamoAna, fechaDevolucionAna);
         Prestamo prestamoJuan = new Prestamo(cienAnios, juan, fechaPrestamoJuan, null);
+
+        Prestamo[] registroPrestamos = new Prestamo[2];
+        registroPrestamos[0] = prestamoAna;
+        registroPrestamos[1] = prestamoJuan;
+
+        consola.writeln("Préstamos:");
+        for (int i = 0; i < registroPrestamos.length; i++) {
+            consola.writeln("  " + registroPrestamos[i].toString());
+        }
     }
 }
